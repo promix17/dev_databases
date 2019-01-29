@@ -1,0 +1,6 @@
+#!/bin/bash
+
+./start_etcd.sh
+./start_mysql.sh
+./start_redis1.sh
+./start_redis2.sh

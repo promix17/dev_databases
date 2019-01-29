@@ -1,0 +1,18 @@
+#!/bin/bash
+
+RED='\033[31m'
+GREEN='\033[32m'
+CLEAR='\033[0m'
+
+function dev_status {
+  if docker ps | grep $1 1>/dev/null; then
+    printf "$1\tis ${GREEN}up${CLEAR}\n"
+  else
+    printf "$1\tis ${RED}down${CLEAR}\n"
+  fi
+}
+
+dev_status "etcd"
+dev_status "mysql"
+dev_status "redis1"
+dev_status "redis2"
