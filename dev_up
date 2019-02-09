@@ -5,3 +5,4 @@ cd "$(dirname "$0")"
 ./start_mysql.sh
 ./start_redis1.sh
 ./start_redis2.sh
+./dev_status
