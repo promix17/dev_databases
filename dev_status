@@ -14,5 +14,6 @@ function dev_status {
 
 dev_status "etcd"
 dev_status "mysql"
+dev_status "pg"
 dev_status "redis1"
 dev_status "redis2"
