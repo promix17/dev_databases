@@ -5,3 +5,4 @@ docker kill mysql
 docker kill pg
 docker kill redis1
 docker kill redis2
+docker kill memcache

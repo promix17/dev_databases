@@ -6,4 +6,5 @@ cd "$(dirname "$0")"
 ./start_pg.sh
 ./start_redis1.sh
 ./start_redis2.sh
+./start_memcache.sh
 ./dev_status
